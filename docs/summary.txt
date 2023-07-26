@@ -1,0 +1,10 @@
+MODULE: - Login (Read)
+        - Logout
+        - Config App (Updated)
+
+
+PR: - Management Data /  Products
+        - Products All -> Read
+        - Create Form -> Create
+        - Detail Form -> Delete
+        - Update Form -> Update
