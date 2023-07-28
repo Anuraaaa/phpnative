@@ -1,5 +1,5 @@
 <?php
-    include("config/helper.php");
+    include("../config/helper.php");
 
     parr($_REQUEST);
 
@@ -23,6 +23,8 @@
             if (password_verify($password, $dataUser['password'])) {
                 unset($dataUser['password']);
                 $_SESSION['auth'] = $dataUser;
+                $_SESSION['name'] = $dataUser['username'];
+                $_SESSION['id'] = $dataUser['id'];
                 header("Location: ". BASE_URL. 'frontend/dashboard/pages/index.php');
             }
             else {

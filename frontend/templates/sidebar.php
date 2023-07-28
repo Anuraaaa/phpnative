@@ -23,9 +23,9 @@
 
                     <ul class="list-group rounded-0">
                         <a href="<?= BASE_URL.'frontend/dashboard/pages/index.php' ?>" class="text-decoration-none">
-                        <li class="list-group-item <?= ($dashboard) ? 'active' : null ?>">Dashboard</li></a>
+                        <li class="list-group-item <?= ($dashboard) ? 'active' : null ?>">Users</li></a>
                         
-                        <a href="<?= BASE_URL.'frontend/dashboard/pages/products.php' ?>" class="text-decoration-none"><li class="list-group-item <?= ($m_data) ? 'active' : null ?>">Management Data</li></a>
+                        <a href="<?= BASE_URL.'frontend/dashboard/pages/products.php' ?>" class="text-decoration-none"><li class="list-group-item <?= ($m_data) ? 'active' : null ?>">Products</li></a>
 
                         <a href="<?= BASE_URL.'frontend/dashboard/pages/config_app.php' ?>" class="text-decoration-none">
                         <li class="list-group-item <?= ($config) ? 'active' : null ?>">Pengaturan</li></a>

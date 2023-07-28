@@ -8,7 +8,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Login  | <?= $app['name'] ?></title>
+    <title>Login  | <?= app('name') ?></title>
     <link rel="stylesheet" href="<?= BASE_URL.'vendor/bootstrap5-3.min.css' ?>">
 
     <style>
@@ -27,7 +27,7 @@
                     </div>
                     <div class="card-body">
                         <h5 class="card-title">Aplikasi Warehouse</h5>
-                        <p class="card-text text-muted">Version <?= $app['version'] ?></p>
+                        <p class="card-text text-muted">Version <?= app('version') ?></p>
                        
                         <hr>
 

@@ -12,7 +12,7 @@
 
 
   // Check data column in Config DB - (name_apps, owner, maintenance, updated_at) 
-  $runSql = mysqli_query($connection, "SELECT * FROM config");
+  $runSql = mysqli_query($connection, "SELECT * FROM config_app");
   $config = mysqli_fetch_assoc($runSql);
 
   
@@ -21,7 +21,7 @@
       if ($updateValue) {
 
       } else {
-          return $config[$column];
+          return $config[$column] ?? '';
       }
   }
 
